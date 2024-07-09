@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- form tag is used to create form, input type is used to take user input in form of text,radio button,check button, date picker  -->
+    <!-- input should contain type to identify type of input , id is also important to uniquely link with label tag  -->
+    <!-- label tag is used to label the block to describe what we need to write inside the box  , screen reader-->
+    <!-- for attribute of label tag and the id of input tag should be same so that they can link each other  -->
+    <!-- submit type is used to save data on server or other action needed to be specified  -->
+    <!-- simple example of basic form  -->
+    <!-- input tag or button tag is used to define a button  -->
+     <!-- placeholder is used to deinfe faded text which give clarity what to write in given block  -->
+
+    <form>
+        <label for="email">Enter Email id</label>
+        <input type="text" id="email" placeholder="abc@gmail.com">
+        <br>
+        <br>
+        <label for="password">Enter password</label>
+        <input type="text" id="password">
+        <br>
+        <br>
+        <input type="submit" value="submit the form">
+        <button>Click here</button>
+        <br>
+        <br>
+        
+
+    </form>
+
+    <!-- 2 form  -->
+     <!-- types of form element like input,label,select,option,textarea,fieldset,legend 
+      select is used to give dropdown menu where option is used to provide options to dropdown
+      textarea is used to give multiple line input from user as a block space
+      fieldset is used to group elements of similar type/ it set a boundary grouping all together 
+      legend is used to give heading towards overall fieldset or block -->
+     <p style="background-color: aqua;">form 2 example</p>
+     <form>
+        <fieldset>
+            <legend>Dummy form</legend>
+            <label for="datepicker">Choose date</label>
+        <input type="date" id="datepicker">
+        <br>
+        <br>
+        <label for="selctor 1">choose your dish</label>
+        <select name="dishes" id="selector 1">
+            <option value="1">maggie</option>
+            <option value="2">chips</option>
+            <option value="3">pepsi</option>
+        </select>
+        <br>
+        <br>
+        <button>Final button</button>
+        <br>
+        <br>
+        <textarea name="txtarea1" id="txtarea1"  cols="30" rows="10" placeholder="share your reviews"></textarea>
+        </fieldset>
+     </form>
+
+    <!-- form example 3 
+     here we talked about various input types of form like
+     text to add text block, button to give a button, radio button to slect/unselect among multiple options.
+     if we need that we can selct multioption at same time then name of each input type should be different, but if we need only one option remain selected
+     then name of all input type should be same 
+     we then looked over checkbox, file upload, image selector to perform some action when image is pressed and about dotted show when password is entered, about date format-->
+     <p style="background-color: darkkhaki;">form example 3 input types</p>
+     <form>
+        <label for="textfield1">Name</label>
+        <input type="text" name="textfield1" id="textfield1">
+        <br>
+        <br>
+        <label for="button1">Submit Name</label>
+        <input type="submit" name="button1" id="button1">
+        <br>
+        <br>
+        <label for="radio1">choose/unchoose</label>
+        <input type="radio" name="radio1" id="radio1">
+        
+        <label for="radio2">choose/unchoose</label>
+        <input type="radio" name="radio1" id="radio2">
+        <label for="radio3">choose/unchoose</label>
+        <input type="radio" name="radio1" id="radio3">
+        <label for="radio4">choose/unchoose</label>
+        <input type="radio" name="radio1" id="radio4">
+        <br>
+        <br>
+        <label for="checkbox1">english</label>
+        <input type="checkbox" name="checkbox1" id="checkbox1">
+        <label for="checkbox2">maths</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2">
+        <br>
+        <br>
+        <label for="fileselector1">Upload any file</label>
+        <input type="file" class="fileselector1" id="fileselector1">
+        <br>
+        <br>
+        <input type="image" name="image1" id="image1" src="buttonarrow.png" alt="Not available" height="60px" width="60px">
+        <br>
+        <br>
+        <label for="password1">Enter password</label>
+        <input type="password" name="password1" id="password1">
+        <br>
+        <br>
+        <label for="date2">Enter DOB</label>
+        <input type="date" name="date2" id="date2">
+
+     </form>
+
+     <!-- form example 1  -->
+      <p style="background-color: blue; height: 40px;">Form Example 1</p>
+      <form>
+        <h1>Event Registration</h1>
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="text" name="email" id="email">
+        <br>
+        <label for="phone">Phone:</label>
+        <br>
+        <input type="tel" name="phone" id="phone">
+        <br>
+        <label for="occupation">Occupation:</label>
+        <br>
+        <select name="occupation" id="occupation" style="width: 150px;">
+            <option value="1">Other</option>
+            <option value="2">Doctor</option>
+            <option value="3">Teacher</option>
+        </select>
+        <br>
+        <fieldset>
+            <legend>Your choice</legend>
+            <label for="interest">Html</label>
+        <br>
+        <input type="checkbox" name="interest" id="interest">
+        <br>
+        <label for="interest">Css</label>
+        <br>
+        <input type="checkbox" name="interest" id="interest">
+        <br>
+        <label for="interest">Javascript</label>
+        <br>
+        <input type="checkbox" name="interest" id="interest">
+
+        </fieldset>
+        
+        <p>Comments:</p>
+        <textarea name="Comments" id="Comments" cols="60px" rows="10px"></textarea>
+        <button>Register</button>
+        
+
+      </form>
+
+      <!-- FORM EXAMPLE 2 -->
+       <p style="background-color: blueviolet; height: 25px;">Form Example 2</p>
+       <form >
+        <h1>Form Application</h1>
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="text" name="email" id="email">
+        <br>
+        <label for="phone">Phone:</label>
+        <br>
+        <input type="tel" name="phone" id="phone">
+        <br>
+        <label for="resume">Resume:</label>
+        <br>
+        <input type="file" name="resume" id="resume">
+        <br>
+        <label for="exp">Experience(years):</label>
+        <br>
+        <input type="number" name="exp" id="exp" min="0" max="50">
+        <fieldset>
+            <legend>Skills:</legend>
+            <input type="checkbox" name="html" id="html">
+            <br>
+            <label for="html">Html</label>
+            <br>
+            <input type="checkbox" name="html" id="html">
+            <br>
+            <label for="html">Html</label>
+            <br>
+            <input type="checkbox" name="html" id="html">
+            <br>
+            <label for="html">Html</label>
+            <br>
+        </fieldset>
+        <label for="education">Highest Education:</label>
+        <br>
+        <select name="education" id="education">
+            <option value="1">High School</option>
+            <option value="2">Graduate</option>
+            <option value="3">Post Graduate</option>
+        </select>
+        <br>
+        <label for="available">Availibility:</label>
+        <br>
+        <input type="radio" name="available" id="available">
+        <br>
+        <label for="available">Full-time</label>
+        <br>
+        <input type="radio" name="available" id="available">
+        <br>
+        <label for="available">Part-time</label>
+        <br>
+        <label for="Comments">Additional Comment:</label>
+        <br>
+        <textarea name="Comments" id="Comments" style="width: 250px; height: 50px;"></textarea>
+        <br>
+        <button>Submit Application</button>
+       </form>
+
+       <!-- FORM EXAMPLE 3  -->
+        <p style="background-color: brown;">Form Example 3</p>
+        <form>
+            <h1>Complex Form</h1>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone">
+                <label for="date">Date of Birth:</label>
+                <input type="date" name="date" id="date">
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="gender">
+                <label for="gender">Male</label>
+                
+                <input type="radio" name="gender" id="gender">
+                <label for="gender">Female</label>
+                <label for="country">Country:</label>
+                <select name="country" id="country">
+                    <option value="1">US</option>
+                    <option value="2">India</option>
+                    <option value="3">Bangladesh</option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Address</legend>
+                <label for="Address">Street:</label>
+                <input type="text" name="Address" id="Address">
+                <label for="Address">City:</label>
+                <input type="text" name="Address" id="Address">
+                <label for="Address">State:</label>
+                <input type="text" name="Address" id="Address">
+                <label for="Address">Zip Code:</label>
+                <input type="text" name="Address" id="Address">
+                
+
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Other Information</legend>
+                <label for="Comments">Comments:</label>
+                <textarea name="Comments" id="Comments" style="width: 250px; height: 100px;"></textarea>
+                <label for="agree">I agree to the term of service</label>
+                <input type="checkbox" class="agree" id="agree">
+            </fieldset>
+            <button>Submit</button>
+        </form>
+</body>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- create html table  1 -->
+    <table border="1">
+        <thead>
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Id</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mehul</td>
+                <td>Male</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td colspan="2">Rahul</td>
+                <!-- <td>Male</td> -->
+                <!-- rowspan is used to expand row . extend till 3  row -->
+                <!-- colspan is used to expand colum  -->
+                <td rowspan="3">15</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Neha</td>
+                <td>Female</td>
+                <!-- <td>22</td>  -->
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Sakshi</td>
+                <td>Female</td>
+                <!-- <td>16</td> -->
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- create html table 2  -->
+    <table border="2">
+        <thead>
+            <th>col 1</th>
+            <th>col 2</th>
+            <th>col 3</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">r1 c1</td>
+                <td>r1 c2</td>
+                <td>r1 c3</td>
+            </tr>
+            <tr>
+                <!-- <td>r2 c1</td> -->
+                <td>r2 c2</td>
+                <td>r2 c3</td>
+            </tr>
+            <tr>
+                <td colspan="3">r3 c1</td>
+                <!-- <td>r3 c2</td> -->
+                <!-- <td>r3 c3</td> -->
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- create html table 3  -->
+    <table border="3">
+        <thead>
+            <th>s.no</th>
+            <th>name</th>
+            <th>position</th>
+            <th>salary</th>
+            <th>type</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill</td>
+                <td>Founder</td>
+                <td>$4566</td>
+                <td rowspan="4">Company</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve</td>
+                <td>CoFounder</td>
+                <td>$4536</td>
+                <!-- <td>Company</td> -->
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Nune</td>
+                <td>Manager</td>
+                <td>$456</td>
+                <!-- <td>Company</td> -->
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Suman</td>
+                <td>Employee</td>
+                <td>$45</td>
+                <!-- <td>Company</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="3">total expense</td>
+            <td>$9603</td>
+        </tfoot>
+    </table>
+
+    <!-- create html table 4 -->
+    <table border="5">
+        <thead>
+            <th>country</th>
+            <th>state</th>
+            <th>city</th>
+            <th>male</th>
+            <th>female</th>
+            <th>other</th>
+        </thead>
+        <tbody>
+            <tr>
+            <td rowspan="8">india</td>
+            <td rowspan="4">UP</td>
+            <td>delhi</td>
+            <td>300</td>
+            <td>234</td>
+            <td>59</td>
+            </tr>
+            
+            <tr>
+            <td>delhi</td>
+            <td>301</td>
+            <td>234</td>
+            <td>59</td>
+            </tr>
+            
+            <tr>
+            <td>delhi</td>
+            <td>302</td>
+            <td>234</td>
+            <td>59</td>
+            </tr>
+       
+            <tr>
+            <td>delhi</td>
+            <td>303</td>
+            <td>234</td>
+            <td>59</td>
+            </tr>
+       
+            <tr>
+            <td rowspan="4">Maharastra</td>
+            <td>delhi</td>
+            <td>304</td>
+            <td>234</td>
+            <td>59</td>
+            </tr>
+            
+            <tr>
+            <td>delhi</td>
+            <td>305</td>
+            <td>234</td>
+            <td>59</td>
+            </tr>
+        
+            <tr>
+            <td>delhi</td>
+            <td>300</td>
+            <td>234</td>
+            <td>59</td>
+            </tr>
+            
+            <tr>
+            <td>delhi</td>
+            <td>300</td>
+            <td>234</td>
+            <td>59</td>
+            </tr>
+        
+            <tr>
+            <td rowspan="2">America</td>
+            <td rowspan="2">state of america</td>
+            <td >delhi</td>
+            <td>234</td>
+            <td>453</td>
+            <td>59</td>
+            </tr>
+
+            <tr>
+            <td>delhi</td>
+            <td>234</td>
+            <td>346</td>
+            <td>59</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+</html>

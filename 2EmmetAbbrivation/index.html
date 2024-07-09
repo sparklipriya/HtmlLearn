@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- p>img paragraph ke andar image tag chiye -->
+    <p><img src="https://images.app.goo.gl/QWJAz7FL2mzgWZ3t6" alt="Image tag within paragraph"></p>
+
+    <!-- need 4 paragraphs p>p>p>p  act as parent child -->
+    <p>
+        <p>
+            <p></p>
+        </p>
+    </p>
+
+    <!-- paragraph ke andar tag p>h1  -->
+    <p>
+        <h1></h1>
+    </p>
+    
+    <!-- paragraph ke andar multi tag p>h1>a  -->
+    <p>
+        <h1><a href=""></a></h1>
+    </p>
+
+
+    <!-- article+section act as siblings -->
+    <article></article>
+    <section></section>
+
+    <!-- paragraph ke andr content add krna ho p{this is content}   -->
+    <P>this is content</P>
+
+    <!-- heading ke andr content h3{this is heading} similalry with oters like article,section -->
+    <h3>this is heading</h3>
+
+    <!-- ul>li*3  -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- table>tr*2>td*2  -->
+    <table>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <!-- id tag is used to uniquely identity 
+    class is parent level entity. It is used for element grouping -->
+    
+    <!-- p#para1 is used to create id  -->
+    <p id="para1"></p>
+    <!-- p#para2{this is paragraph 2}  -->
+    <p id="para2">this is paragraph 2</p>
+    <!-- section#topper  -->
+    <section id="topper"></section>
+
+    <!-- p.car create paragraph class  -->
+    <p class="car"></p>
+    <!-- article.hunt  -->
+    <article class="hunt"></article>
+    <!-- section.jar{this is section}  -->
+    <section class="jar">this is section</section>
+    <!-- p.car.alto.breeza.bmw this is for multiple classes  -->
+    <p class="car alto breeza bmw"></p>
+    <!-- section.name.branch.address{this is division}  -->
+    <section class="name branch address">this is division</section>
+
+    <!-- p>ul>li*5  -->
+    <p>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </p>
+
+    <!-- p+section+article  -->
+    <p></p>
+    <section></section>
+    <article></article>
+    
+    <!-- section>p*3  -->
+    <!-- section>p+p+p  -->
+    <section>
+        <p></p>
+        <p></p>
+        <p></p>
+    </section>
+    
+    
+    <!-- section>p>p>p  -->
+    <section>
+        <p>
+            <p>
+                <p></p>
+            </p>
+        </p>
+    </section>
+
+    <!-- section>(ul>li*2)+p  -->
+    <section>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+        <p></p>
+    </section>
+
+    <!-- section>ul>li*2+p  -->
+    <section>
+        <ul>
+            <li></li>
+            <li></li>
+            <p></p>
+        </ul>
+    </section>
+
+    <!-- div tag is used to wrap the content , nonsemantic/no meaning. create division, create different sections  -->
+    <div>
+        <!-- section>p>p>p  -->
+    <section>
+        <p>
+            <p>
+                <p></p>
+            </p>
+        </p>
+    </section>
+
+    <!-- section>(ul>li*2)+p  -->
+    <section>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+        <p></p>
+    </section>
+
+    <!-- section>ul>li*2+p  -->
+    <section>
+        <ul>
+            <li></li>
+            <li></li>
+            <p></p>
+        </ul>
+    </section>    
+    </div>
+
+    <!-- .container   -->
+    <div class="container">
+        <section>
+            <ul>
+                <li></li>
+                <li></li>
+                <p></p>
+            </ul>
+        </section> 
+
+    </div>
+    <div class="wrapper">
+        <section>
+            <p>
+                <p>
+                    <p></p>
+                </p>
+            </p>
+        </section>
+    </div>
+
+    <!-- Types of element: Block, Inline  -->
+    <!-- Block - next line create, take full space of left and right -->
+    <!-- Inline - don't move to next line, take the space of content  -->
+    <div class="count" style="background-color: green;">First div</div>  
+    <!-- take full width, block element -->
+    <div class="count" style="background-color: yellow;">Second div</div> 
+    <!-- comes on next line  -->
+    <span style="background-color: blueviolet;">this is span tag</span>
+    <!-- take content width only, inline element  -->
+    <span style="background-color: hotpink;">this is span tag 2</span>
+    <!-- comes on same line  -->
+    <!-- convert block element to inline element by using display: inline  -->
+    <p style="background-color: bisque; display: inline;">this is block paragraph</p>
+
+
+    <!-- ul>(li>p>a)*7  -->
+    <ul>
+        <li>
+            <p><a href="https://www.google.com/"">A</a></p>
+        </li>
+        <li>
+            <p><a href="https://www.google.com/">B</a></p>
+        </li>
+        <li>
+            <p><a href="">C</a></p>
+        </li>
+        <li>
+            <p><a href="">D</a></p>
+        </li>
+        <li>
+            <p><a href="">E</a></p>
+        </li>
+        <li>
+            <p><a href="">F</a></p>
+        </li>
+        <li>
+            <p><a href="">H</a></p>
+        </li>
+    </ul>
+
+   
+    <!-- nav>(li>a)*4  -->
+    
+    <nav >
+        <!-- display on same line without points  -->
+        <ul style="display: inline-flex; list-style: none;">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Photos</a></li> 
+        </ul>
+        <!-- display row wise with points  -->
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Photos</a></li>
+    </nav>
+
+    <!-- Send mail -->
+    <a href="mailto:priyayadav180016@gmail.com">Mail</a>
+    <!-- Phone Call  -->
+    <a href="tel:8957236694">Call</a>
+
+
+
+
+</body>
+</html>
